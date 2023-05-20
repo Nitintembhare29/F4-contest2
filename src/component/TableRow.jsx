@@ -1,7 +1,6 @@
 import React from 'react';
 
 const TableRow = ({ data }) => {
-  console.log(data);
   const { name, id, image, symbol, current_price, total_volume, price_change_percentage_24h, market_cap} = data;
 
   return (
